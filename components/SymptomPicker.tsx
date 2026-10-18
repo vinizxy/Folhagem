@@ -33,7 +33,7 @@ export default function SymptomPicker() {
           <div><p className="eyebrow">Como confirmar</p><p className="mt-1 text-lg">{d.check}</p></div>
           <div><p className="eyebrow">O que fazer</p><p className="mt-1 text-lg">{d.act}</p></div>
         </div>
-        <p className="mt-4 text-sm text-muted">Resumo ilustrativo. No guia você encontra de 12 a 15 sintomas, com fotos e o passo a passo completo.</p>
+        <p className="mt-4 text-sm text-muted">Resumo ilustrativo. No guia você encontra 15 sintomas, com fotos e o passo a passo completo.</p>
         <div className="mt-6"><CTA>Quero a tabela completa</CTA></div>
       </div>
     </section>

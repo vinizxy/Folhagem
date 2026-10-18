@@ -1,4 +1,3 @@
-import Bonuses from "@/components/Bonuses";
 import Contents from "@/components/Contents";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
@@ -45,7 +44,6 @@ export default function Home() {
         <SymptomPicker />
         <Method />
         <Contents />
-        <Bonuses />
         <Guide />
         <Testimonials />
         <Offer />

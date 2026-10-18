@@ -9,7 +9,7 @@ export default function Obrigado() {
     <main className="container-x max-w-2xl py-20 text-center">
       <h1 className="text-4xl font-semibold">Pronto! Seu Guia Folhagem está a caminho.</h1>
       <p className="mt-4 text-lg text-muted">Enviamos o acesso para o e-mail usado na compra. Se não chegar em alguns minutos, olhe a caixa de spam ou promoções.</p>
-      <p className="mt-2 text-muted">Dúvidas? Use o canal de suporte da plataforma de pagamento, indicado no e-mail da compra.</p>
+      <p className="mt-2 text-muted">Dúvidas? Fale com a gente: {site.legal.email}</p>
       <Link href="/" className="btn mt-8">Voltar ao início</Link>
     </main>
   );

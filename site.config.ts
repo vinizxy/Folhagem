@@ -66,8 +66,8 @@ export const site = {
 
   legal: {
     cnpj: process.env.NEXT_PUBLIC_CNPJ || "[CNPJ]",
-    email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "[EMAIL DE CONTATO]",
-    whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "[WHATSAPP]",
+    email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "trilha.lab1@gmail.com",
+    whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "5511941186232",
   },
 
   tracking: {

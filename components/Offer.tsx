@@ -4,8 +4,11 @@ import Guarantee from "./Guarantee";
 import { Check } from "./ui";
 
 const included = [
-  "Guia Folhagem em PDF (mais de 50 páginas, formato vertical)",
-  ...site.bonuses.map((b) => `Bônus: ${b.title}`),
+  "Guia Folhagem em PDF: 58 páginas, formato vertical para o celular",
+  "15 sintomas: causa provável, como confirmar e o que fazer",
+  "Método dos 4 Sinais para diagnosticar em 10 minutos",
+  "Fichas de 14 plantas populares, com luz, rega e toxicidade para pets",
+  "Plano de resgate de 7 dias e rotina mensal de cuidados",
   "Acesso imediato por e-mail após o pagamento",
 ];
 

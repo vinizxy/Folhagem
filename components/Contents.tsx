@@ -1,11 +1,11 @@
 const chapters = [
   ["Método dos 4 Sinais", "luz, água, raiz e praga: diagnóstico em 10 minutos"],
-  ["Tabela de sintomas", "12 a 15 problemas: causa, como confirmar e como resolver"],
+  ["Tabela de sintomas", "15 sintomas: causa provável, como confirmar e como resolver"],
   ["Rega certa", "teste do dedo e resgate de planta encharcada ou seca"],
   ["Luz no apartamento", "como ler a janela e onde colocar cada planta"],
   ["Vaso e substrato", "escolha e troca de vaso, passo a passo"],
   ["Pragas e doenças", "cochonilha, ácaro, mosquinha-do-fungo e tratamentos caseiros seguros"],
-  ["Fichas de plantas populares", "jiboia, zamioculca, espada-de-são-jorge, lírio-da-paz, samambaia, ficus, suculentas e mais"],
+  ["Fichas de 14 plantas populares", "jiboia, zamioculca, espada-de-são-jorge, lírio-da-paz, samambaia, ficus, suculentas e mais, com aviso de toxicidade para pets"],
   ["Plano de resgate de 7 dias e rotina mensal", "o que fazer a cada dia e depois, todo mês"],
 ];
 
@@ -14,7 +14,7 @@ export default function Contents() {
     <section className="section">
       <div className="container-x">
         <div className="reveal max-w-2xl">
-          <h2 className="h2">Mais de 50 páginas verticais, feitas para ler no celular, com muitas fotos.</h2>
+          <h2 className="h2">58 páginas verticais, feitas para ler no celular, com muitas fotos.</h2>
         </div>
         <ol className="mt-10 grid gap-x-12 md:grid-cols-2">
           {chapters.map(([t, d]) => (
