@@ -5,7 +5,7 @@ export default function Footer() {
   const { legal } = site;
   const wa = /^\d+$/.test(legal.whatsapp) ? `https://wa.me/${legal.whatsapp}` : null;
   return (
-    <footer className="bg-creme-200 pb-28 pt-12 text-sm text-muted md:pb-12">
+    <footer className="bg-creme-200 pb-28 pt-12 text-sm text-muted">
       <div className="container-x space-y-4">
         <p className="font-display text-xl font-semibold text-folha-900">{site.brand}</p>
         <nav aria-label="Rodapé" className="flex flex-wrap gap-x-6 gap-y-2 font-medium text-folha-900">

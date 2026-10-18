@@ -35,7 +35,7 @@ fbq('init','${px}');fbq('track','PageView');fbq('track','ViewContent',{content_n
         </>
       )}
       {consent === "unknown" && (
-        <div role="dialog" aria-label="Cookies" className="fixed inset-x-3 bottom-3 z-50 mx-auto max-w-xl rounded-2xl border-2 border-folha-900 bg-creme-50 p-4 shadow-lg">
+        <div role="dialog" aria-label="Cookies" className="fixed inset-x-3 bottom-20 z-50 mx-auto max-w-xl rounded-2xl border-2 border-folha-900 bg-creme-50 p-4 shadow-lg">
           <p className="text-sm">
             Usamos cookies de medição e anúncios (Meta/Google) para entender o que funciona. Você decide.{" "}
             <Link href="/politica-de-privacidade" className="font-semibold underline">Saiba mais</Link>.
