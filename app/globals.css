@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { @apply bg-creme-100 font-sans text-ink antialiased; }
+  h1, h2, h3 { @apply font-display text-folha-900 text-balance; }
+  p { @apply text-pretty; }
+  :focus-visible { outline: 3px solid theme("colors.folha.700"); outline-offset: 3px; border-radius: 4px; }
+  .on-dark :focus-visible { outline-color: theme("colors.mostarda.400"); }
+  summary::-webkit-details-marker { display: none; }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-5xl px-5 md:px-8; }
+  .section { @apply py-16 md:py-24; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.16em] text-mostarda-700; }
+  .on-dark .eyebrow { @apply text-mostarda-300; }
+  .h2 { @apply text-3xl font-semibold leading-tight md:text-4xl; }
+  .btn {
+    @apply inline-flex min-h-[52px] items-center justify-center gap-2 rounded-full bg-mostarda-400 px-7 py-3
+      text-center text-base font-bold text-folha-900 shadow-[0_3px_0_0_theme(colors.mostarda.700)]
+      transition duration-200 hover:-translate-y-0.5 hover:bg-mostarda-300 active:translate-y-0 active:shadow-none;
+  }
+  .rule { @apply border-t border-dashed border-folha-800/25; }
+}
+
+/* Reveal on scroll sem JS: só onde há suporte e se o usuário não pediu menos movimento. */
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal { animation: rise linear both; animation-timeline: view(); animation-range: entry 0% entry 30%; }
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn { transition: none; }
+  .btn:hover { transform: none; }
+}
