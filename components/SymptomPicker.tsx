@@ -17,8 +17,7 @@ export default function SymptomPicker() {
     <section className="section bg-creme-200">
       <div className="container-x">
         <div className="reveal max-w-2xl">
-          <p className="eyebrow mb-3">Teste agora, é grátis</p>
-          <h2 className="h2">O que a sua planta está mostrando?</h2>
+          <h2 className="h2">Teste grátis: o que a sua planta está mostrando?</h2>
           <p className="mt-3 text-lg text-muted">Toque no sintoma e veja a causa provável. É assim, em minutos, que o guia funciona.</p>
         </div>
         <div className="mt-8 flex flex-wrap gap-2" role="group" aria-label="Sintomas">

@@ -17,7 +17,6 @@ export default function PainPoints() {
       <div className="container-x grid items-center gap-10 md:grid-cols-[0.8fr_1.2fr] md:gap-14">
         <Image src={img.src} alt="Ilustração de uma jardineira examinando uma folha de jiboia" width={img.w} height={img.h} sizes="(min-width: 768px) 320px, 80vw" loading="lazy" className="reveal hidden aspect-[4/5] w-full rounded-[2rem] object-cover md:block" />
         <div className="reveal">
-          <p className="eyebrow mb-3">Você se reconhece?</p>
           <h2 className="h2">Você comprou a planta com carinho. Semanas depois, ela começa a definhar.</h2>
           <ul className="mt-6 space-y-3">
             {pains.map((p) => (
@@ -26,7 +25,7 @@ export default function PainPoints() {
               </li>
             ))}
           </ul>
-          <p className="mt-7 border-l-4 border-folha-600 pl-4 text-lg">
+          <p className="mt-7 rounded-2xl bg-creme-200 p-5 text-lg">
             <strong className="font-display text-2xl text-folha-900">A culpa nunca foi sua.</strong><br />
             Ninguém ensina a ler uma planta. Sem saber o que olhar, qualquer pessoa trata o sintoma errado, e cada tentativa errada custa dinheiro, tempo e ânimo.
             O guia custa <strong>{brl(site.price.now)}</strong> e vale para as plantas que você tem e para as que vierem.

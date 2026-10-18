@@ -14,7 +14,6 @@ export default function Guide() {
           <figcaption className="mt-2 text-center text-xs text-muted">Lia é uma personagem ilustrada com IA</figcaption>
         </figure>
         <div className="reveal">
-          <p className="eyebrow mb-3">Quem vai te guiar</p>
           <h2 className="h2">Oi, eu sou a {site.persona.name}, {site.persona.role}.</h2>
           <p className="mt-4 text-lg">
             Sou a voz que acompanha você no guia: sem pressa, sem julgamento e sem palavra difícil. A minha ideia é simples: te ajudar a olhar para a sua planta e entender o que ela está pedindo.

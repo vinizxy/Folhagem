@@ -13,7 +13,6 @@ export default function Method() {
     <section className="section on-dark bg-folha-900 text-creme-100">
       <div className="container-x">
         <div className="reveal max-w-2xl">
-          <p className="eyebrow mb-3">A virada</p>
           <h2 className="h2 !text-creme-50">O Método dos 4 Sinais: diagnóstico em 10 minutos</h2>
           <p className="mt-5 text-lg text-creme-200">
             Quase todo problema de planta de apartamento cai em um destes quatro grupos. Você olha na ordem, elimina o que não é e chega à causa provável sem chute.

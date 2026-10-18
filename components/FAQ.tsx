@@ -10,7 +10,7 @@ export default function FAQ() {
             <details key={q} className="group border-b border-dashed border-folha-800/30 py-1">
               <summary className="flex min-h-[48px] cursor-pointer items-center justify-between gap-4 py-3 text-lg font-semibold text-folha-900">
                 {q}
-                <span aria-hidden="true" className="text-2xl text-mostarda-700 transition group-open:rotate-45">+</span>
+                <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5 shrink-0 text-folha-700 transition group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6" /></svg>
               </summary>
               <p className="pb-4 text-muted">{a}</p>
             </details>

@@ -21,8 +21,7 @@ export default function Hero() {
 
         <div className="grid items-center gap-14 md:grid-cols-[1.15fr_0.85fr]">
           <div>
-            <p className="eyebrow mb-4">Para quem já perdeu planta e não sabe por quê</p>
-            <h1 className="text-4xl font-semibold leading-[1.08] !text-creme-50 md:text-6xl">{site.headlines[site.headline]}</h1>
+            <h1 className="text-[2rem] font-semibold leading-[1.1] !text-creme-50 sm:text-4xl md:text-6xl">{site.headlines[site.headline]}</h1>
             <p className="mt-5 max-w-xl text-lg text-creme-200">{site.subheadline}</p>
             <div className="mt-8">
               <CTA>Quero salvar minhas plantas</CTA>
@@ -37,7 +36,7 @@ export default function Hero() {
             </ul>
           </div>
 
-          <figure className="relative mx-auto mb-10 w-full max-w-[340px] md:mb-0">
+          <figure className="relative mx-auto mb-12 w-full max-w-[340px] md:mb-0">
             <Image src={img.src} alt="Ilustração de uma jardineira sorrindo, regando suculentas em uma sacada de apartamento" width={img.w} height={img.h} loading="eager" sizes="(min-width: 768px) 340px, 86vw" className="aspect-[4/5] w-full rounded-t-[10rem] rounded-b-3xl border-4 border-creme-100/90 object-cover" />
             <div className="absolute -bottom-9 -left-2 w-[66%] -rotate-2 rounded-2xl bg-creme-50 p-4 text-ink shadow-xl sm:-left-8" aria-hidden="true">
               <p className="eyebrow !text-mostarda-700">Ficha de triagem</p>
@@ -50,7 +49,7 @@ export default function Hero() {
                 ))}
               </div>
             </div>
-            <figcaption className="mt-14 text-center text-xs text-creme-200">Imagem ilustrativa criada com IA</figcaption>
+            <figcaption className="absolute right-3 top-3 rounded-full bg-folha-900/75 px-2.5 py-1 text-[10px] font-medium text-creme-50">Imagem ilustrativa criada com IA</figcaption>
           </figure>
         </div>
       </div>

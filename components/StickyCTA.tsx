@@ -4,7 +4,7 @@ import { brl, site } from "@/site.config";
 /** Barra fixa embaixo, sempre visível (celular e desktop): zona do polegar, sem cobrir o topo. */
 export default function StickyCTA() {
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-folha-900/15 bg-creme-50/95 px-4 py-2.5 backdrop-blur">
+    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-folha-900/15 bg-creme-50/95 px-4 pt-2.5 pb-[max(0.625rem,env(safe-area-inset-bottom))] backdrop-blur">
       <div className="mx-auto flex max-w-3xl items-center gap-3">
         <p className="text-sm font-bold leading-tight text-folha-900">
           {brl(site.price.now)}

@@ -14,13 +14,12 @@ export default function Contents() {
     <section className="section">
       <div className="container-x">
         <div className="reveal max-w-2xl">
-          <p className="eyebrow mb-3">Por dentro do guia</p>
           <h2 className="h2">40 a 55 páginas verticais, feitas para ler no celular, com muitas fotos.</h2>
         </div>
         <ol className="mt-10 grid gap-x-12 md:grid-cols-2">
-          {chapters.map(([t, d], i) => (
-            <li key={t} className="reveal flex gap-4 border-b border-dashed border-folha-800/25 py-3 sm:py-4">
-              <span className="font-display text-2xl font-semibold text-folha-600">{String(i + 1).padStart(2, "0")}</span>
+          {chapters.map(([t, d]) => (
+            <li key={t} className="reveal flex gap-3 border-b border-dashed border-folha-800/25 py-3 sm:py-4">
+              <span aria-hidden="true" className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-mostarda-400" />
               <div><h3 className="text-lg font-semibold">{t}</h3><p className="hidden text-muted sm:block">{d}</p></div>
             </li>
           ))}

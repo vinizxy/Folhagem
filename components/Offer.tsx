@@ -14,8 +14,7 @@ export default function Offer() {
   return (
     <section id="oferta" className="section scroll-mt-4">
       <div className="container-x">
-        <div className="reveal mx-auto max-w-2xl rounded-3xl border-2 border-folha-900 bg-creme-50 p-7 shadow-[8px_8px_0_0_theme(colors.folha.800/0.2)] md:p-10">
-          <p className="eyebrow mb-2">Guia Folhagem + 3 bônus</p>
+        <div className="reveal mx-auto max-w-2xl rounded-3xl bg-creme-50 p-6 shadow-2xl shadow-folha-900/15 md:p-10">
           <h2 className="h2">Seu pronto-socorro de plantas, no bolso, por menos que muita muda nova</h2>
           <ul className="mt-6 space-y-3">
             {included.map((t) => <li key={t} className="flex gap-3"><Check className="mt-1 h-5 w-5 shrink-0 text-folha-700" />{t}</li>)}
