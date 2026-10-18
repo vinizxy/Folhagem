@@ -3,7 +3,7 @@ import { brl, site } from "@/site.config";
 import CTA from "./CTA";
 import { Check, Leaf } from "./ui";
 
-const seals = ["Acesso imediato", "Revisado por agrônomo", `Garantia de ${site.guaranteeDays} dias`];
+const seals = ["Acesso imediato", "Linguagem simples", `Garantia de ${site.guaranteeDays} dias`];
 
 export default function Hero() {
   const img = site.images.hero;

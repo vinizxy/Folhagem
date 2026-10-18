@@ -9,7 +9,7 @@ const display = Fraunces({ subsets: ["latin"], variable: "--font-display", displ
 const body = Figtree({ subsets: ["latin"], variable: "--font-body", display: "swap" });
 
 const title = `${site.product} | ${site.brand}`;
-const description = "E-book em PDF para identificar o sintoma da sua planta, descobrir a causa provável e saber o que fazer. Revisado por agrônomo, acesso imediato e garantia de 7 dias.";
+const description = "E-book em PDF para identificar o sintoma da sua planta, descobrir a causa provável e saber o que fazer. Linguagem simples, acesso imediato e garantia de 7 dias.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),

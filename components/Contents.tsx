@@ -14,7 +14,7 @@ export default function Contents() {
     <section className="section">
       <div className="container-x">
         <div className="reveal max-w-2xl">
-          <h2 className="h2">40 a 55 páginas verticais, feitas para ler no celular, com muitas fotos.</h2>
+          <h2 className="h2">Mais de 50 páginas verticais, feitas para ler no celular, com muitas fotos.</h2>
         </div>
         <ol className="mt-10 grid gap-x-12 md:grid-cols-2">
           {chapters.map(([t, d]) => (

@@ -35,7 +35,7 @@ export const site = {
   flags: {
     showTestimonials: false, // só ative com depoimentos REAIS preenchidos abaixo
     showBonusValues: false, // só ative se os valores forem reais e coerentes com o preço de tabela
-    showReviewer: true,
+    showReviewer: false,
   },
 
   testimonials: [] as { name: string; city?: string; text: string }[],

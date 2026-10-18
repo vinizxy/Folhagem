@@ -4,7 +4,7 @@ import Guarantee from "./Guarantee";
 import { Check } from "./ui";
 
 const included = [
-  "Guia Folhagem em PDF (40 a 55 páginas, formato vertical)",
+  "Guia Folhagem em PDF (mais de 50 páginas, formato vertical)",
   ...site.bonuses.map((b) => `Bônus: ${b.title}`),
   "Acesso imediato por e-mail após o pagamento",
 ];

@@ -2,8 +2,6 @@ import Link from "next/link";
 import { site } from "@/site.config";
 
 export default function Footer() {
-  const { legal } = site;
-  const wa = /^\d+$/.test(legal.whatsapp) ? `https://wa.me/${legal.whatsapp}` : null;
   return (
     <footer className="bg-creme-200 pb-28 pt-12 text-sm text-muted">
       <div className="container-x space-y-4">
@@ -11,10 +9,7 @@ export default function Footer() {
         <nav aria-label="Rodapé" className="flex flex-wrap gap-x-6 gap-y-2 font-medium text-folha-900">
           <Link href="/politica-de-privacidade" className="inline-flex min-h-[44px] items-center underline underline-offset-4">Política de Privacidade</Link>
           <Link href="/termos-de-uso" className="inline-flex min-h-[44px] items-center underline underline-offset-4">Termos de Uso</Link>
-          {wa ? <a href={wa} className="inline-flex min-h-[44px] items-center underline underline-offset-4">WhatsApp</a> : <span>WhatsApp: {legal.whatsapp}</span>}
-          <span>{legal.email}</span>
         </nav>
-        <p>CNPJ {legal.cnpj}</p>
         <p>
           Este site não é afiliado ao Facebook, ao Instagram nem à Meta Platforms, Inc. Facebook e Instagram são marcas registradas de seus respectivos proprietários.
         </p>

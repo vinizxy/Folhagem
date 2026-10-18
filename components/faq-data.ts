@@ -1,7 +1,7 @@
 import { site } from "@/site.config";
 
 export const faqs = [
-  ["Por que pagar se existe conteúdo grátis na internet?", "Conteúdo solto costuma se contradizer e não parte do sintoma que você está vendo. O guia reúne tudo em uma ordem lógica, revisada por agrônomo, para você chegar à causa provável em minutos em vez de horas."],
+  ["Por que pagar se existe conteúdo grátis na internet?", "Conteúdo solto costuma se contradizer e não parte do sintoma que você está vendo. O guia reúne tudo em uma ordem lógica, para você chegar à causa provável em minutos em vez de horas."],
   ["Vale R$ 27,90?", "Pense no que você já gastou em mudas, vasos e produtos que não resolveram. É um pagamento único, com garantia de 7 dias: se não ajudar, você pede o dinheiro de volta."],
   ["Serve para quem é iniciante?", "Sim. O guia foi escrito sem termos técnicos, com fotos e passo a passo. Você não precisa de experiência prévia."],
   ["Funciona para a minha planta?", "O guia traz fichas de 12 a 15 plantas populares de interior e o Método dos 4 Sinais, que vale para a maioria das plantas de casa. Não cobre horta, árvores frutíferas nem cultivo comercial."],
