@@ -11,7 +11,6 @@ export default function Guide() {
       <div className="container-x grid items-center gap-10 md:grid-cols-[0.8fr_1.2fr] md:gap-14">
         <figure className="reveal mx-auto w-full max-w-[220px] md:max-w-none">
           <Image src={img.src} alt="Ilustração da Lia, a guia do Folhagem, podando plantas em um jardim" width={img.w} height={img.h} sizes="(min-width: 768px) 320px, 80vw" loading="lazy" className="aspect-[4/5] w-full rounded-[2rem] object-cover" />
-          <figcaption className="mt-2 text-center text-xs text-muted">Lia é uma personagem ilustrada com IA</figcaption>
         </figure>
         <div className="reveal">
           <h2 className="h2">Oi, eu sou a {site.persona.name}, {site.persona.role}.</h2>

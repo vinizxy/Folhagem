@@ -49,7 +49,6 @@ export default function Hero() {
                 ))}
               </div>
             </div>
-            <figcaption className="absolute right-3 top-3 rounded-full bg-folha-900/75 px-2.5 py-1 text-[10px] font-medium text-creme-50">Imagem ilustrativa criada com IA</figcaption>
           </figure>
         </div>
       </div>
