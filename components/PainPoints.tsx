@@ -1,3 +1,4 @@
+import Image from "next/image";
 import CTA from "./CTA";
 
 const pains = [
@@ -30,12 +31,15 @@ export default function PainPoints() {
           ))}
         </ul>
 
-        <div className="reveal mt-12 max-w-3xl border-l-4 border-mostarda-400 pl-5">
+        <div className="reveal mt-12 flex max-w-3xl items-start gap-5 border-l-4 border-mostarda-400 pl-5">
+          <Image src="/images/guia-folhagem.webp" alt="" width={112} height={140} sizes="112px" loading="lazy" className="hidden aspect-[4/5] w-28 shrink-0 rounded-2xl object-cover sm:block" />
+          <div>
           <p className="font-display text-2xl font-semibold text-folha-900 md:text-3xl">A culpa nunca foi sua.</p>
           <p className="mt-3 text-lg text-muted">
             Ninguém te ensinou a ler uma planta. Ela não fala, ela dá sinais, e cada sinal tem uma causa diferente.
             Sem saber o que olhar, qualquer pessoa acaba tratando o sintoma errado.
           </p>
+          </div>
         </div>
         <div className="mt-8"><CTA>Quero entender minha planta</CTA></div>
       </div>

@@ -6,3 +6,6 @@ next-env.d.ts
 *.tsbuildinfo
 lighthouse-*.json
 ebook/
+
+.vercel
+.env*
