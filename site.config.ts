@@ -54,9 +54,15 @@ export const site = {
 
   // Imagens reais: coloque em /public/images e informe o caminho. null = mostra placeholder.
   images: {
+    hero: { src: "/images/lia-sacada.webp", w: 819, h: 1024 },
+    guia: { src: "/images/lia-jardim.webp", w: 825, h: 1024 },
+    final: { src: "/images/lia-cozinha.webp", w: 928, h: 1152 },
+    leaf: { src: "/images/guia-folhagem.webp", w: 1122, h: 1402 },
     reviewer: null as string | null,
-    previews: [null, null, null] as (string | null)[],
   },
+
+  // Personagem da marca (ilustrada com IA). NÃO é uma pessoa real nem uma profissional registrada.
+  persona: { name: "Lia", role: "a guia do Folhagem" },
 
   legal: {
     cnpj: process.env.NEXT_PUBLIC_CNPJ || "[CNPJ]",

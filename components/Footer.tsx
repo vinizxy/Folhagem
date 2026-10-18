@@ -21,6 +21,7 @@ export default function Footer() {
         <p>
           Os resultados dependem da espécie, do ambiente e dos cuidados de cada pessoa; o guia é um material informativo e não garante a recuperação de toda planta.
         </p>
+        <p>A Lia, guia do Folhagem, é uma personagem ilustrada com inteligência artificial; não é uma pessoa real.</p>
         <p>© {new Date().getFullYear()} {site.brand}. Todos os direitos reservados.</p>
       </div>
     </footer>

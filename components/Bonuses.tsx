@@ -9,12 +9,12 @@ export default function Bonuses() {
           <p className="eyebrow mb-3">Bônus incluídos</p>
           <h2 className="h2">Três extras para colocar o diagnóstico em prática</h2>
         </div>
-        <ul className="mt-10 grid gap-6 md:grid-cols-3">
+        <ul className="mt-8 grid gap-4 md:grid-cols-3 md:gap-6">
           {site.bonuses.map((b, i) => (
-            <li key={b.title} className="reveal border-t-4 border-mostarda-400 bg-creme-50 p-6">
+            <li key={b.title} className="reveal border-t-4 border-mostarda-400 bg-creme-50 p-4 md:p-6">
               <p className="eyebrow">Bônus {i + 1}</p>
-              <h3 className="mt-2 text-xl font-semibold">{b.title}</h3>
-              <p className="mt-2 text-muted">{b.desc}</p>
+              <h3 className="mt-1 text-lg md:text-xl font-semibold">{b.title}</h3>
+              <p className="mt-1 text-muted">{b.desc}</p>
               {showBonusValues && <p className="mt-3 text-sm font-semibold text-folha-800">Valor de tabela: <s>{brl(b.value)}</s> · incluso</p>}
             </li>
           ))}

@@ -1,17 +1,15 @@
-import Authority from "@/components/Authority";
-import Benefits from "@/components/Benefits";
 import Bonuses from "@/components/Bonuses";
-import Cost from "@/components/Cost";
 import Contents from "@/components/Contents";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
-import Fit from "@/components/Fit";
 import Footer from "@/components/Footer";
+import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
 import Method from "@/components/Method";
 import Offer from "@/components/Offer";
 import PainPoints from "@/components/PainPoints";
 import StickyCTA from "@/components/StickyCTA";
+import SymptomPicker from "@/components/SymptomPicker";
 import Testimonials from "@/components/Testimonials";
 import { faqs } from "@/components/faq-data";
 import { site } from "@/site.config";
@@ -44,13 +42,11 @@ export default function Home() {
       <main>
         <Hero />
         <PainPoints />
-        <Cost />
+        <SymptomPicker />
         <Method />
-        <Benefits />
         <Contents />
         <Bonuses />
-        <Fit />
-        <Authority />
+        <Guide />
         <Testimonials />
         <Offer />
         <FAQ />

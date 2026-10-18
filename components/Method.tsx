@@ -19,16 +19,16 @@ export default function Method() {
             Quase todo problema de planta de apartamento cai em um destes quatro grupos. Você olha na ordem, elimina o que não é e chega à causa provável sem chute.
           </p>
         </div>
-        <ol className="mt-12 grid gap-px overflow-hidden rounded-3xl bg-creme-100/15 sm:grid-cols-2 lg:grid-cols-4">
+        <ol className="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-3xl bg-creme-100/15 lg:grid-cols-4">
           {signs.map(({ Icon, name, q, d }, i) => (
-            <li key={name} className="reveal bg-folha-900 p-6">
+            <li key={name} className="reveal bg-folha-900 p-4 sm:p-6">
               <div className="flex items-center justify-between text-mostarda-300">
                 <Icon />
                 <span className="font-display text-4xl font-semibold opacity-60">{i + 1}</span>
               </div>
-              <h3 className="mt-5 text-2xl font-semibold !text-creme-50">{name}</h3>
-              <p className="mt-1 font-semibold text-mostarda-300">{q}</p>
-              <p className="mt-2 text-creme-200">{d}</p>
+              <h3 className="mt-3 text-xl sm:mt-5 sm:text-2xl font-semibold !text-creme-50">{name}</h3>
+              <p className="mt-1 text-sm font-semibold text-mostarda-300 sm:text-base">{q}</p>
+              <p className="mt-2 hidden text-creme-200 sm:block">{d}</p>
             </li>
           ))}
         </ol>

@@ -7,8 +7,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        folha: { 100: "#E3EBDD", 300: "#8FB09B", 700: "#2C5A3F", 800: "#1F3D2B", 900: "#13291D" },
-        creme: { 50: "#FBF7EC", 100: "#F6F0E2", 200: "#EBE2CC", 300: "#D9CDAE" },
+        folha: { 100: "#DDEBD3", 300: "#8FB98A", 600: "#3F7A4A", 700: "#2F6A3E", 800: "#21502F", 900: "#173A23" },
+        creme: { 50: "#F8FAF2", 100: "#EDF2E2", 200: "#DCE6CC", 300: "#C3D2AD" },
         mostarda: { 300: "#F0C766", 400: "#E0A526", 500: "#C98A12", 700: "#7A5200" },
         ink: "#1B2A21",
         muted: "#46564C",

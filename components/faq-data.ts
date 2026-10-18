@@ -7,7 +7,6 @@ export const faqs = [
   ["Funciona para a minha planta?", "O guia traz fichas de 12 a 15 plantas populares de interior e o Método dos 4 Sinais, que vale para a maioria das plantas de casa. Não cobre horta, árvores frutíferas nem cultivo comercial."],
   ["Garante que minha planta vai se recuperar?", "Não. Nenhum material pode prometer isso: algumas plantas já estão sem raízes saudáveis quando o problema é percebido. O guia ajuda a identificar a causa e a agir da forma certa, aumentando suas chances."],
   ["Como eu recebo o guia?", "Logo após a confirmação do pagamento, o acesso chega por e-mail. Confira também a caixa de spam ou promoções."],
-  ["Qual é o formato do arquivo?", "PDF, em formato vertical pensado para a tela do celular. Também abre bem em tablet e computador."],
-  ["Posso ler no celular?", "Sim, essa é a ideia. As páginas foram desenhadas para leitura no celular, sem precisar dar zoom."],
+  ["Qual o formato e posso ler no celular?", "PDF em formato vertical, pensado para a tela do celular, sem precisar dar zoom. Também abre bem em tablet e computador."],
   ["E se eu não gostar?", `Você tem ${site.guaranteeDays} dias de garantia incondicional. Se não for o que esperava, basta pedir o reembolso dentro do prazo.`],
 ] as const;

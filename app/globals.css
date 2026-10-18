@@ -7,7 +7,6 @@
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
   body { @apply bg-creme-100 font-sans text-ink antialiased; }
   h1, h2, h3 { @apply font-display text-folha-900 text-balance; }
-  p { @apply text-pretty; }
   :focus-visible { outline: 3px solid theme("colors.folha.700"); outline-offset: 3px; border-radius: 4px; }
   .on-dark :focus-visible { outline-color: theme("colors.mostarda.400"); }
   summary::-webkit-details-marker { display: none; }
@@ -15,7 +14,7 @@
 
 @layer components {
   .container-x { @apply mx-auto w-full max-w-5xl px-5 md:px-8; }
-  .section { @apply py-16 md:py-24; }
+  .section { @apply py-14 md:py-20; }
   .eyebrow { @apply text-xs font-bold uppercase tracking-[0.16em] text-mostarda-700; }
   .on-dark .eyebrow { @apply text-mostarda-300; }
   .h2 { @apply text-3xl font-semibold leading-tight md:text-4xl; }
