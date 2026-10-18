@@ -15,7 +15,7 @@ export default function PainPoints() {
   return (
     <section className="section">
       <div className="container-x grid items-center gap-10 md:grid-cols-[0.8fr_1.2fr] md:gap-14">
-        <Image src={img.src} alt="Ilustração de uma jardineira examinando uma folha de jiboia" width={img.w} height={img.h} sizes="(min-width: 768px) 320px, 80vw" loading="lazy" className="reveal hidden aspect-[4/5] w-full rounded-[2rem] object-cover md:block" />
+        <Image src={img.src} alt="Lia examinando uma folha de jiboia" width={img.w} height={img.h} sizes="(min-width: 768px) 320px, 80vw" loading="lazy" className="reveal hidden aspect-[4/5] w-full rounded-[2rem] object-cover md:block" />
         <div className="reveal">
           <h2 className="h2">Você comprou a planta com carinho. Semanas depois, ela começa a definhar.</h2>
           <ul className="mt-6 space-y-3">

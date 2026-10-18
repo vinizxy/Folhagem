@@ -24,7 +24,7 @@ Brasileira, cerca de 38 anos, cabelo escuro e ondulado (solto, preso ou em tran�
 - Promessas absolutas ("salvo 100% das plantas").
 
 ## Onde aparece no site
-Hero (sacada), bloco da dor (folha de jiboia), seção "Quem vai te guiar" (jardim), CTA final (cozinha). Sempre com legenda de imagem ilustrativa; o rodapé tem o aviso de personagem criada com IA.
+Hero (sacada), bloco da dor (folha de jiboia), seção "Quem vai te guiar" (jardim), CTA final (cozinha). Sem legenda de IA nas fotos nem no rodapé (decisão do dono do projeto).
 
 ## Conteúdo que combina com ela (ganchos de Instagram/Meta)
 "3 sinais de que sua planta está regada demais", "Teste do dedo em 10 segundos", "Folha amarela: qual é a causa?", "O erro nº 1 de quem tem planta em apartamento". Sempre educativos, sem antes/depois sensacionalista.

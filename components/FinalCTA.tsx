@@ -14,7 +14,7 @@ export default function FinalCTA() {
           </p>
           <div className="mt-8"><CTA>Quero salvar minhas plantas</CTA></div>
         </div>
-        <Image src={img.src} alt="Ilustração de uma jardineira podando uma monstera em uma cozinha com vasos" width={img.w} height={img.h} sizes="(min-width: 768px) 460px, 90vw" loading="lazy" className="reveal hidden aspect-[4/5] w-full rounded-t-[10rem] rounded-b-3xl object-cover md:block" />
+        <Image src={img.src} alt="Lia podando uma monstera em uma cozinha com vasos" width={img.w} height={img.h} sizes="(min-width: 768px) 460px, 90vw" loading="lazy" className="reveal hidden aspect-[4/5] w-full rounded-t-[10rem] rounded-b-3xl object-cover md:block" />
       </div>
     </section>
   );

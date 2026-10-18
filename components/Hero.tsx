@@ -37,7 +37,7 @@ export default function Hero() {
           </div>
 
           <figure className="relative mx-auto mb-12 w-full max-w-[340px] md:mb-0">
-            <Image src={img.src} alt="Ilustração de uma jardineira sorrindo, regando suculentas em uma sacada de apartamento" width={img.w} height={img.h} loading="eager" sizes="(min-width: 768px) 340px, 86vw" className="aspect-[4/5] w-full rounded-t-[10rem] rounded-b-3xl border-4 border-creme-100/90 object-cover" />
+            <Image src={img.src} alt="Lia, a guia do Folhagem, sorrindo e regando suculentas em uma sacada de apartamento" width={img.w} height={img.h} loading="eager" sizes="(min-width: 768px) 340px, 86vw" className="aspect-[4/5] w-full rounded-t-[10rem] rounded-b-3xl border-4 border-creme-100/90 object-cover" />
             <div className="absolute -bottom-9 -left-2 w-[66%] -rotate-2 rounded-2xl bg-creme-50 p-4 text-ink shadow-xl sm:-left-8" aria-hidden="true">
               <p className="eyebrow !text-mostarda-700">Ficha de triagem</p>
               <p className="font-display text-xl font-semibold leading-tight text-folha-900">Folha amarela</p>
